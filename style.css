@@ -433,6 +433,166 @@
   cursor: pointer;
 }
 
+footer {
+  margin: 50px auto;
+}
+
+.footer {
+  background: #fbfbfb;
+}
+
+.cols-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 30px;
+}
+
+.mid-border {
+  border-left: 1px solid #46a3581a;
+  border-right: 1px solid #46a3581a;
+  padding-left: 30px;
+}
+
+.cols-1 .plant h2 {
+  color: #3d3d3d;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 16px;
+  margin: 10px 0;
+}
+
+.cols-1 .plant p {
+  color: #727272;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  width: 200px;
+}
+
+.cols-1 .join h3 {
+  color: #3d3d3d;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  width: 300px;
+}
+
+.join .email-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 20px #0000000f;
+  background: #ffffff;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
+.join .email-form input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #acacac;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.join .email-form button {
+  color: white;
+  background: #46a358;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  border: 0;
+  padding: 15px 25px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+}
+
+.join p {
+  color: #727272;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  width: 345px;
+}
+
+.cols-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  background: #46a3581a;
+  padding: 30px;
+}
+
+.cols-2 p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #3d3d3d;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.cols-2 p:nth-child(2) {
+  width: 200px;
+}
+
+.cols-2 p i {
+  color: #46a358;
+  font-size: 20px;
+}
+
+.cols-3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px;
+}
+
+.cols-3 ul h1,
+.cols-3 .social-media h1 {
+  color: #3d3d3d;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+
+.cols-3 .social-media .socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.cols-3 .social-media .socials img {
+  border: 1px solid #46a35833;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.cols-3 ul li {
+  color: #3d3d3d;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+footer p.reserved {
+  color: #3d3d3d;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     justify-content: space-between;
